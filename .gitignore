@@ -1,0 +1,36 @@
+# Keil outputs
+Objects/
+Listings/
+DebugConfig/
+*.axf
+*.bin
+*.build_log.htm
+*.crf
+*.d
+*.dep
+*.hex
+*.htm
+*.lnp
+*.lst
+*.map
+*.o
+*.uvguix.*
+*.uvoptx
+build-output.txt
+JLink*
+
+# IDE and OS
+.metadata/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
+
+# Never publish private signing keys, including MCUboot sample keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
